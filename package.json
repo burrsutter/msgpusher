@@ -1,0 +1,13 @@
+{
+    "name": "msgpusher",
+    "version": "0.0.1",
+    "description": "send a message in",
+    "main": "msgpusher.js",
+    "scripts": {
+        "pusher": "node msgpusher.js",
+        "start": "npm run pusher"
+    },
+    "dependencies": {
+        "rhea": "^0.2.12"
+    }
+}
