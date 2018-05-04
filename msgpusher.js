@@ -12,7 +12,7 @@ container.on('message', function (context) {
 });
 container.on('sendable', function (context) {
     // context.sender.send("{\"text\":\"apple,orange,banana\",\"replyTo\":\"reply_queue_102\"}");
-    context.sender.send({body:{'somekey':'somevalue'}});
+    context.sender.send({body:{'somekey':'somevalueRafael'}});
     context.sender.detach();
 });
 container.connect({port: 5672, host: "127.0.0.1"});
